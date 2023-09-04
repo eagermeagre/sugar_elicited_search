@@ -6,8 +6,6 @@ for file = files'
     distance=sum(euc_dist);
     %converting pix to mm 
     pathlength=distance/5.67;
-    
-    
     save((file.name), 'pathlength','-append');
 end
 
